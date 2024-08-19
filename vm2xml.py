@@ -67,7 +67,7 @@ def create_xml(vm_info):
 def main():
     context = ssl._create_unverified_context()
 
-    # vCenter credentials
+    # vCenter credentials (fill in with your information)
     vc_host = 'your_vcenter_host'
     vc_user = 'your_username'
     vc_pass = 'your_password'
